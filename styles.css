@@ -3,18 +3,28 @@
 }
 
 body {
-    margin: 0;
+    border: 1px solid red;
     min-height: 100vh;
-    background-color: #1F2937;
     font-family: "Roboto", sans-serif;
     display: flex;
     flex-direction: column;
-    margin: auto 15%;
+    background-color: red;
+    margin: 0;
+    padding: 0;
 }
 
 p {
     margin: 0;
     padding: 0;
+}
+
+h1,
+h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
 }
 
 ul {
@@ -31,6 +41,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 23%;
+    background-color: #1F2937;
 }
 
 .logo-text {
@@ -46,3 +58,60 @@ header {
     font-weight: light;
     color: #E5E7EB;
 }
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+    padding: 100px 23%;
+    align-items: stretch;
+    background-color: #1F2937;
+}
+
+.intro-left,
+.intro-right {
+    flex: 1;
+    border: 1px solid yellow;
+}
+
+.intro-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+}
+
+.intro-right .secondary-text {
+    justify-content: center;
+}
+
+.intro .intro-left button {
+    color: white;
+    background-color: #3882F6;
+    height: auto;
+    width: auto;
+    padding: 7px 25px;
+    margin: 5px 0;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.info {
+    background-color: white;
+    margin: 0;
+    padding: 50px 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+}
+
