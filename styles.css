@@ -157,7 +157,6 @@ header {
     background-color: #F9FAF8;
     display: flex;
     padding: 50px 23%;
-    border: 1px solid red;
 }
 
 .action .blue-thing {
@@ -179,4 +178,11 @@ header {
     height: 35px;
     width: 120px;
     color: #F9FAF8;
+}
+
+footer {
+    text-align: center;
+    padding: 50px 23%;
+    background-color: #1F2937;   
+    color: #E5E7EB;
 }
